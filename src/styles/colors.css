@@ -1,0 +1,69 @@
+.bg-primary {
+  background-color: #2d85f3 !important;
+}
+.bg-success {
+  background-color: #000 !important;
+}
+.bg-info {
+  background-color: #000 !important;
+}
+.bg-warning {
+  background-color: #000 !important;
+}
+.bg-danger {
+  background-color: #000 !important;
+}
+.bg-secondary {
+  background-color: #000 !important;
+}
+.bg-dark {
+  background-color: #000 !important;
+}
+.bg-light {
+  background-color: #000 !important;
+}
+
+.text-muted {
+    color: #000;
+}
+.text-primary {
+    color: #000;
+}
+.text-success {
+    color: #000;
+}
+.text-info {
+    color: #000;
+}
+.text-warning {
+    color: #000;
+}
+.text-danger {
+    color: #000;
+}
+.text-secondary {
+    color: #000;
+}
+.text-white {
+    color: #000;
+}
+.text-dark {
+    color: #000;
+}
+.text-body {
+    color: #000;
+}
+.text-light {
+    color: #000;
+}
+.text-white {
+    color: #fff;
+}
+
+.text-gray {
+    color: #333;
+}
+
+.text-address {
+    color: #666;
+}

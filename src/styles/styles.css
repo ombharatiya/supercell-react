@@ -1,0 +1,558 @@
+@import "./colors.css";
+
+#moreOptionNav {
+  display: none;
+  /* display: block; */
+  /* visibility: hidden; */
+  /* width: 90%;
+  left: 0;
+  
+  : 1; */
+  /* position: fixed;
+  top: 70px;
+  display: block;
+  background-color: #808080;
+  width: 90%; */
+  /* max-width: 90%; */
+  /* padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; */
+}
+.gameOption:hover #moreOptionNav {
+  display: block;
+  /* visibility: visible; */
+  position: fixed;
+  top: 70px;
+  background-color: #808080;
+}
+
+.moreCareerOptionNav {
+  display: none;
+}
+.careerOption:hover .moreCareerOptionNav {
+  position: fixed;
+  top: 70px;
+  display: block;
+  background-color: #808080;
+}
+.moreCareerOptionNav:hover {
+  position: fixed;
+  top: 70px;
+  display: none;
+  background-color: #808080;
+}
+/* .main { */
+/* background: url("https://cdn.supercell.com/supercell.com/200807115636/supercell.com/files/styles/hero_image_narrow/public/bg_hero_games.jpg?itok=gQzv5VNB&timestamp=1544548126"); */
+/* background: ; */
+/* } */
+
+.centerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto 0 auto;
+  text-align: center;
+  position: absolute;
+}
+
+.centerBottom {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  padding: 10px;
+}
+.centerBottomIcon {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  padding: 10px;
+}
+.left-radius {
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  background: #1f7aeb;
+}
+.right-radius {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #2d85f3;
+}
+.seeButton > span {
+  padding: 10px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.card {
+  text-align: center;
+}
+.field-label {
+  color: #fb4a9d;
+}
+.field-text {
+  color: #000;
+}
+
+.card {
+  border: none;
+}
+
+.card > h3 {
+  margin-bottom: 80px;
+}
+
+.card > a > img {
+  display: block;
+  margin: 0 0 35px 0;
+  width: 100%;
+  height: auto;
+}
+
+.wordWrap {
+  width: 90%;
+}
+
+#link {
+  text-decoration: none;
+}
+
+.footer {
+  background: #000;
+  color: #ffffff;
+  padding: 0 75px;
+  font-size: small;
+}
+.footer-link {
+  display: flex;
+}
+/* .social-link {
+  margin-left: 14px;
+} */
+.socialMedia {
+  float: left;
+  /* width: 50%; */
+  padding-top: 36px;
+  /* padding-left: 30px; */
+  overflow: hidden;
+  padding-bottom: 2.75em;
+}
+div.socialMedia ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  /* max-width: 32px; */
+  /* height: 32px; */
+}
+div.socialMedia li {
+  margin-top: 18px;
+  margin-right: 18px;
+  max-width: 32px;
+}
+div.socialMedia ul li {
+  list-style: none;
+  /* max-width: 32px; */
+  height: 32px;
+}
+div.socialMedia img {
+  height: 24px;
+}
+div.socialMedia h5 {
+  font-size: small;
+}
+.downloadLink {
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding-top: 36px;
+  /* padding-right: 30px; */
+  overflow: hidden;
+  padding-bottom: 2.75em;
+}
+.downloadLink img {
+  height: 50px;
+  margin-left: 15px;
+}
+
+.secondary-link {
+  border-top: 1px solid #333;
+  padding-top: 24px;
+  padding-bottom: 1.5em;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* padding-left: 30px; */
+}
+.secondary-link a {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1280px) {
+  .secondary-link {
+    flex-direction: column;
+  }
+}
+.footer-end {
+  position: relative;
+  padding-bottom: 10em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-address {
+  /* width: 75%; */
+  color: #666;
+  font-family: "SupercellText-Medium", Helvetica, Arial, sans-serif;
+  /* font-size: small; */
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width-content {
+  display: grid;
+  grid-column-gap: 70px;
+  grid-template-columns: 1fr 1fr;
+  padding: 70px 66px 0px;
+  width: 100%;
+}
+
+.full-width-content-2 {
+  display: grid;
+  grid-column-gap: 70px;
+  grid-template-columns: 1fr 1fr;
+  padding: 70px 66px 50px 0px;
+  width: 100%;
+}
+
+.image-1 {
+  background: url("https://cdn.supercell.com/supercell.com/200807115636/all/themes/supercell/img/18/bg_wmg_brawlstars.jpg");
+  background-size: cover;
+}
+
+.image-2 {
+  background: url("https://cdn.supercell.com/supercell.com/200807115636/all/themes/supercell/img/18/bg_fp_nextstep.jpg");
+  background-size: cover;
+  height: 520px;
+}
+.image-3 {
+  background: url("https://cdn.supercell.com/supercell.com/200812095732/all/themes/supercell/img/18/games_hayday_community_bg.jpg");
+  background-size: cover;
+  /* height: 520px; */
+}
+
+.padding-four-side {
+  padding: 56px 44px;
+}
+
+.full-width-content-text {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  /* color: white; */
+}
+div.full-width-content-text h1 {
+  margin-bottom: 20px;
+}
+div.full-width-content-text p {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.full-width-content-text-button {
+  width: max-content;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 12px 21px;
+  border-radius: 8px;
+}
+
+.full-width-content-image {
+  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 50%; */
+}
+
+.full-width-content-image img {
+  height: auto;
+  width: 66%;
+  object-fit: cover;
+  left: -281px;
+}
+.full-width-content-image-2 {
+  padding: 0 auto;
+  display: flex;
+  align-items: center;
+  /* width: 50%; */
+}
+
+.full-width-content-image-2 span {
+  /* width: auto; */
+  /* width: 580px; */
+  width: 100%;
+  height: 458px;
+  /* left: -50%; */
+  position: relative;
+  /* background: url("https://cdn.supercell.com/supercell.com/200812095732/all/themes/supercell/img/18/bg_intro_hayday.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right; */
+}
+
+.image-4 {
+  background: url("https://cdn.supercell.com/supercell.com/200812095732/all/themes/supercell/img/18/bg_intro_hayday.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.image-5 {
+  background: url("https://cdn.supercell.com/supercell.com/200812095732/all/themes/supercell/img/18/bg_gamewebsite_hayday.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.poster {
+  width: 100%;
+  height: 680px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.home-cover {
+  background: url("https://cdn.supercell.com/supercell.com/200807115636/supercell.com/files/styles/hero_image_large/public/bg_hero_frontpage.jpg?itok=0oQ2Uxxa&timestamp=1544480104");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hayday-cover {
+  background: url("https://cdn.supercell.com/supercell.com/200812095732/supercell.com/files/styles/hero_image_large/public/bg_hero_hayday.jpg?itok=JMThcu0r&timestamp=1544552030");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.games-cover {
+  background: url("https://cdn.supercell.com/supercell.com/200812095732/supercell.com/files/styles/hero_image_large/public/bg_hero_games.jpg?itok=RD5O4aUm&timestamp=1544548126");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.socialMedia2 {
+  padding-top: 36px;
+}
+div.socialMedia2 ul {
+  display: flex;
+  /* flex-direction: row; */
+  padding-left: 0px;
+  /* max-width: 32px; */
+  /* height: 32px; */
+}
+div.socialMedia2 li {
+  margin-top: 18px;
+  /* margin-right: 18px; */
+  max-width: 32px;
+}
+div.socialMedia2 ul li {
+  list-style: none;
+  /* max-width: 32px; */
+  height: 32px;
+}
+div.socialMedia2 img {
+  height: 24px;
+}
+div.socialMedia2 h5 {
+  font-size: small;
+}
+.download-link-2 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.download-link-2 img {
+  height: 50px;
+}
+.download-link-2 a {
+  max-width: 150px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.download-link {
+  /* text-align: right; */
+  padding-top: 36px;
+  padding-bottom: 2.75em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.download-link img {
+  height: 50px;
+  margin-left: 15px;
+}
+div.download-link h5 {
+  /* font-size: small; */
+  display: none;
+}
+.video {
+  width: 100%;
+  height: 500px;
+}
+
+.footer-address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.grey-background {
+  background-color: #f2f2f2;
+}
+.blue-text {
+  color: #2d85f3;
+}
+.alice-carousel__dots {
+  margin: 0 3px 14px;
+}
+.alice-carousel__dots-item.__active {
+  background-color: #2d85f3 !important;
+}
+.alice-carousel__dots-item {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #cdcdcd !important;
+}
+.youtube-icon {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  cursor: pointer;
+}
+.border-upper {
+  border-top: 1px solid #ddd;
+}
+
+.timeline {
+  width: 100%;
+  position: relative;
+  top: 150px;
+}
+.timeline-content {
+  width: 100%;
+  position: relative;
+  top: 130px;
+  /* overflow-y: hidden;
+  overflow-x: scroll; */
+  margin: 0 -20px;
+  padding: 0 20px;
+}
+.timeline-title {
+  border-left: 1px solid grey;
+}
+
+.timeline-container {
+  height: 450px;
+}
+
+.timeline-hayday {
+  left: 80%;
+  position: relative;
+  bottom: 117px;
+}
+.timeline-block {
+  height: 169px;
+  text-align: left;
+}
+.half-content {
+  width: 50%;
+}
+
+.delay {
+  animation: mymove 3s;
+  animation-delay: 2s;
+}
+@keyframes mymove {
+  from {
+    top: 100px;
+  }
+  to {
+    top: 130px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .timeline-content {
+    top: 20px !important;
+  }
+  .timeline-container {
+    height: 500px !important;
+  }
+  .timeline-hayday {
+    left: 50% !important;
+    bottom: 300px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1200px) {
+  .timeline-content {
+    width: 100%;
+    position: relative;
+    top: 40px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 0 -20px;
+    padding: 0 20px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  div.download-link {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: none !important;
+  }
+  .download-link img {
+    height: 50px;
+    margin-left: 0;
+    margin-right: 15px;
+  }
+  div.download-link h5 {
+    font-size: small;
+    display: block;
+  }
+  .video {
+    width: 100%;
+    height: 300px;
+  }
+  .timeline-content {
+    top: 30px !important;
+  }
+  .timeline-container {
+    height: 400px !important;
+  }
+  .timeline-hayday {
+    left: 50% !important;
+    bottom: 200px !important;
+  }
+}
