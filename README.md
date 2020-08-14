@@ -73,7 +73,48 @@ npm run build
 - State Management
 
 
+## Project Structure
+
+```
+--- src/
+-------- assets
+-------- components
+------------- Footer.tsx
+------------- NavigationBar.tsx
+-------- models
+------------- Paragraph.ts
+-------- modules
+------------- games
+------------- hayDay
+------------- home
+------------- constants.ts
+-------- services
+------------- getParagraph1
+------------- getParagraph2
+------------- hayDayServices
+------------- urls.ts
+-------- store
+------------- actions
+----------------- Paragraph1Actions.ts
+----------------- Paragraph2Actions.ts
+------------- reducers
+----------------- Paragraph1Reducer.ts
+----------------- Paragraph2Reducer.ts
+----------------- RootReducer.ts
+------------- sagas
+----------------- Sagas.ts
+----------------- hayDaySagas.ts
+------------- state
+----------------- ParagraphState.ts
+------------- Store.ts
+------------- storeHelper.ts
+-------- styles
+-------- App.tsx
+--- package.json
+--- tsconfig.json
+```
+
 ## Author
 
-  - **Om Bharatiya** - *Provided README Template* -
+  - **Om Bharatiya** 
     [Om Bharatiya](https://github.com/ombharatiya)
