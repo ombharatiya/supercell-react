@@ -1,44 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SuperCell
 
-## Available Scripts
+This is a clone of [Supercell website](https://supercell.com/en/).
 
-In the project directory, you can run:
+## Summary
 
-### `npm start`
+  - [Getting Started](#getting-started)
+  - [Built With](#built-with)
+  - [Features](#features)
+  - [Authors](#authors)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Clone this repository
+```
+git clone https://github.com/ombharatiya/supercell-react.git
+```
 
-### `npm test`
+Get into project directoty
+```
+cd supercell-react
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Setting up the react project 
+```
+npm install
+```
+Run the project locally
+```
+npm start
+```
 
-### `npm run build`
+The server would be running at http://localhost:3000
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Done! Now enjoy the beautiful app :)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+To run the project you must have `node` installed in your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    node v12.13.1
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Create Build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To deploy this application, you require to create a build
+```
+npm run build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Built With
 
-## Learn More
+### The app uses following libraries/packages for development & build:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **[React.js](https://reactjs.org/)** - An open-source JavaScript library for building user interfaces & single-page or mobile applications.
+- **[Redux.js](https://redux.js.org/)** - A Predictable State Container for JS Apps
+- **[Redux-Saga](https://redux-saga.js.org/)** - A Redux Middleware library to handle Asynchronous Actions such as fetching data more easily & effciently
+- **[React-Router](https://www.npmjs.com/package/react-router)** - A package that provides the core routing functionality for React Router
+- **[Axios](https://www.npmjs.com/package/axios)** - Promise based HTTP client for the browser and node.js. It gives out of the box client side support for protecting against XSRF
+- **[Docker](https://www.docker.com/)** - to package and run the app in a loosely isolated environment called a container
+- **[TypeScript](https://github.com/Microsoft/TypeScript)** - a superset of JavaScript programming language that compiles to clean JavaScript output.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Author
+
+  - **Om Bharatiya** - *Provided README Template* -
+    [Om Bharatiya](https://github.com/ombharatiya)
