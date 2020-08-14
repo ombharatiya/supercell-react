@@ -61,6 +61,19 @@ npm run build
 - **[TypeScript](https://github.com/Microsoft/TypeScript)** - a superset of JavaScript programming language that compiles to clean JavaScript output.
 
 
+## Features
+
+- Home page
+  For Home page redirect the user to localhost:3000/home
+- Games page
+  For Games redirect the user to localhost:3000/games
+- Hay Day Game page
+  For Hay Day redirect the user to localhost:3000/games/hayday
+- Navigation
+- Footer
+- State Management
+
+
 ## Author
 
   - **Om Bharatiya** - *Provided README Template* -
