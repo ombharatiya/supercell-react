@@ -57,7 +57,6 @@ npm run build
 - **[Redux-Saga](https://redux-saga.js.org/)** - A Redux Middleware library to handle Asynchronous Actions such as fetching data more easily & effciently
 - **[React-Router](https://www.npmjs.com/package/react-router)** - A package that provides the core routing functionality for React Router
 - **[Axios](https://www.npmjs.com/package/axios)** - Promise based HTTP client for the browser and node.js. It gives out of the box client side support for protecting against XSRF
-- **[Docker](https://www.docker.com/)** - to package and run the app in a loosely isolated environment called a container
 - **[TypeScript](https://github.com/Microsoft/TypeScript)** - a superset of JavaScript programming language that compiles to clean JavaScript output.
 
 
