@@ -7,7 +7,8 @@ This is a clone of [Supercell website](https://supercell.com/en/).
   - [Getting Started](#getting-started)
   - [Built With](#built-with)
   - [Features](#features)
-  - [Authors](#authors)
+  - [Project Structure](#project-structure)
+  - [Authors](#author)
 
 ## Getting Started
 
